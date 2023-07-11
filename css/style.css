@@ -258,7 +258,7 @@
       
     
       
-
+    
      
 
     .projects-section {
@@ -277,43 +277,98 @@
       
       .cart {
         width: 100%;
-        height: 500px;
+      
         margin-bottom: 20px;
-        
+        background: rgba(46, 46, 46, 0.6);
         border-radius: 4px;
         padding: 10px;
         border-radius: 1rem;
-      }
-      
-      .img  {
-        background: #DF3276;
-        width: 100%;
-        height: 100%;
-        border-radius: 4px;
-        margin-bottom: 10px;
         display: flex;
-       
-  justify-content: end;
-  align-items: center;
+        position: relative;
+
       }
 
-      img{
-
-        background-color: grey;
-        width: 30%;
-        padding: 70px;
+      .contentcart h3{
+        font-family: 'Syne';
+        margin-left: 10px;
+        font-size: 40px;
+        color: white;
       }
-      
-      .cart h3 {
+
+      .contentcart p {
+        margin-left: 10px;
+        width: 60%;
         font-size: 18px;
-        margin-bottom: 5px;
+        color: grey;
+      }
+
+      .contentcart a{
+        color: white;
+        margin-left: 10px;
+        background-color: grey;
+        font-family: 'Syne';
+        padding: 20px;
+        border-radius: 12px;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 19px;
+      }
+
+
+      @media screen and (max-width: 1000px){
+        .cart {
+            flex-direction: column-reverse;
+            
+        }
+
+        .cart a{
+            right: 0;
+            margin-right: 19px;
+        }
+        
+
+        .cart img{
+        
+        
+            
+            background-color: grey;
+            width: 100%;
+           
+          }
+
+
+        
       }
       
-      .cart p {
-        font-size: 14px;
+      .cart img{
+        
+        
+        
+        background-color: grey;
+        width: 60%;
+       
       }
       
       
+      
+      
+      
+      
+      footer > p{
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+        font-family: 'Syne';
+        
+      }
+
+      footer{
+        
+
+        
+
+    
+      }
 
       
 
